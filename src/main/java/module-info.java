@@ -3,6 +3,6 @@ module com.example.expensetracker {
     requires javafx.fxml;
 
 
-    opens main.expensetracker to javafx.fxml;
-    exports main.expensetracker;
+    opens Main to javafx.fxml;
+    exports Main;
 }
